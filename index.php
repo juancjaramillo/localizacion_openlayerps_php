@@ -19,7 +19,7 @@
   $address = "1600 Amphitheatre Parkway, Mountain View, CA";
 
   // API key de Google Maps
-  $apiKey = "AIzaSyAVNS1lqK1cBs0raTgMXDpg_Rxp6C20ZQ4";
+  $apiKey = "YOUR_API_KEY";
 
   // URL de la API de geocodificación de Google Maps
   $url = "https://maps.googleapis.com/maps/api/geocode/json?address=" . urlencode($address) . "&key=" . $apiKey;
